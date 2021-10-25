@@ -3,7 +3,7 @@ package hu.petrik;
 public class Batman implements Szuperhos, Milliardos{
     private double lelemenyesseg;
 
-    public Batman(double lelemenyesseg) {
+    public Batman() {
         this.lelemenyesseg = 100;
     }
 
@@ -27,7 +27,7 @@ public class Batman implements Szuperhos, Milliardos{
 
     @Override
     public String toString() {
-        return String.format("Batman:\nLeleményesség: %d",this.lelemenyesseg);
+        return String.format("Batman:\nLeleményesség: %f",this.lelemenyesseg);
 
     }
 }

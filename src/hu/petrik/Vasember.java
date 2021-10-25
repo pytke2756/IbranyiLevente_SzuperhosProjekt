@@ -25,6 +25,6 @@ public class Vasember extends Bosszuallo implements Milliardos{
     @Override
     public String toString() {
         String gyengeseg = this.isVanEGyengesege() ? "Van" : "Nincs";
-        return String.format("Vasember:\nSzupererő: %d\n%s gyengesége",this.mekkoraAzEreje(), gyengeseg);
+        return String.format("Vasember:\nSzupererő: %f\n%s gyengesége",this.mekkoraAzEreje(), gyengeseg);
     }
 }
